@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 227, 169)
+    
+
+}
+
+
+.card {
+    border: 1px solid rgb(255, 140, 140);
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(255, 93, 93, 4)
+    
+    }
+
+h1{
+    color: rgb(255, 140, 140)
+}
+
+.celeste{
+   color: lightblue;
+   display:inline;
+   background-color:rgb(238, 162, 11); 
+   margin: 20px 20px 
+
+   
+}
+h2{
+    color: blue;
+}
+.red {
+    color: red;
+}
+.brown{
+    color: brown;
+}
+li{
+    color: rgb(0, 0, 0);
+}
+.green{
+    color: green;
+}
+.hover__href{
+    color: red;
+}

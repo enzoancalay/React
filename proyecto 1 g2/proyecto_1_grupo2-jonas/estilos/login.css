@@ -1,0 +1,169 @@
+main {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/254/680/non_2x/cinema-background-concept-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    height: 100vh;
+}
+
+#login-contenido {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(7, 6, 12, 0.856);
+    height: 600px;
+}
+
+#principal {
+    height: 100vh;
+}
+
+
+@media only screen and (min-width: 1400px) {
+    #login-contenido {
+        height: 850px;
+    }
+
+    label {
+        font-size: 25px;
+    }
+    input {
+        height: 55px;
+    }
+
+    form>button {
+        height: 55px;
+        width: 150px;
+    }
+
+    span {
+        font-size: 30px;
+    }
+
+    #olvidado, #registrar, #c {
+        font-size: 30px;
+    }
+
+    .boton-login-alterno {
+        width: 70px;
+    }
+    .boton2-login-alterno {
+        width: 73px;
+    }
+}
+
+#registrar{
+    text-decoration: none;
+}
+
+#olvidado {
+    color: white;
+    text-decoration: none;
+}
+#olvidado:hover{
+    color: yellow;
+}
+
+.login-alterno {
+    text-decoration: none;
+    color: white;
+}
+.boton-login-alterno {
+    width: 50px;
+}
+.boton2-login-alterno {
+    width: 53px;
+}
+
+#img-derecha {
+    border-radius: 20px;
+}
+
+/* .boton-olvidar:hover {
+    border: transparent;
+} */
+
+
+@media only screen and (max-width: 450px) {
+    #login-contenido {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (min-width: 451px) {
+    #login-contenido {
+        width: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (min-width: 520px) {
+    #login-contenido {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 600px) {
+    #login-contenido {
+        width: 570px;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 670px) {
+    #login-contenido {
+        width: 620px;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    #login-contenido {
+        width: 730px;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 820px) {
+    #login-contenido {
+        min-width: 90%;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 1000px) {
+    #login-contenido {
+        min-width: 80%;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+    #login-contenido {
+        min-width: 68%;
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media only screen and (min-width: 1400px) {
+    #login-contenido {
+        max-width: 30%;
+        display: flex;
+        justify-content: center;
+    } 
+}

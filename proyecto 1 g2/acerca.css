@@ -1,0 +1,53 @@
+#pochocleros {
+    border: 3px solid black;
+    color: black;
+    background-color: #DEB522;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 900 !important;
+}
+#pochocleros:hover {
+    border: 3px solid rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
+}
+
+#navbar-color {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(8, 8, 8) !important;
+}
+
+/* inicio footer */
+footer {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(8, 8, 8) !important;
+}
+
+@media only screen and (max-width: 767px) {
+    #redes, #info-footer {
+        padding-left: 10% !important;
+        padding-top: 3% !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    #redes, #info-footer {
+        padding-left: 9% !important;
+    }
+}
+.copyright {
+    background-color: black !important;
+}
+.hover-links a {
+    color: rgb(134, 134, 134) !important;
+}
+.hover-links a:hover {
+    color: white !important;
+}
+.avatar {
+    
+    height: 100px;
+    width: 100px;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}

@@ -1,0 +1,6 @@
+crar pagina sobre fauna nativa argenita.
+posibles nombres: 
+nativaarg
+fanativa
+idea principal: mapa argentino donde se pueda seleccionar por regiones e ingresar para ver la fauna y flora de la zona seleccionada, 
+tamnbien tratar de agregar informacion geologica y geografica con datos historicos de la zona.

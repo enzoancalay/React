@@ -1,0 +1,40 @@
+.display-flex{
+    display: flex;
+   background-color: lightslategray;
+   padding: 8px;
+}
+article{
+border: 2px solid #ccc;
+margin: 4px;
+padding: 4px;
+width: 100px;
+height: 100px;
+}
+.display-flex1{
+    display: flex;
+}
+.nav-link{
+    padding: 15px;  
+}
+.flex-column-reverse{
+    flex-direction: column-reverse
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-content-center{
+    align-content: center;
+}
+
+.height-500px{
+    height: 500px;
+}
