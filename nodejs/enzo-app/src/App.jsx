@@ -1,11 +1,11 @@
-import Layout from "../src/pages/Layout"
+import Layout from "../src/Pages/Layout";
 //import "../src/css/globals.css"
 function App() {
-	return (
-		<>
-			<Layout />
-		</>
-	);
+  return (
+    <>
+      <Layout />
+    </>
+  );
 }
 
 export default App;

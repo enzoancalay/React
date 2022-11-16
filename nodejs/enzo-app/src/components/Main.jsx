@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const Main = () => {
+const Main = ({ personas, Letras, callBack }) => {
+  callBack("esto es un callback");
   return (
-	<main>Este es main </main>
-  )
-}
+    <main>
+      {personas.map((persona) => (
+        <ul>
+          <li>nombre:{persona.name}</li>
+          <li>Apellido:{persona.lastName}</li>
+          <li>Id: {persona.id}</li>
+        </ul>
+      ))}
+    </main>
+  );
+};
 
-export default Main
+export default Main;
